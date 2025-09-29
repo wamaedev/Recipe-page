@@ -150,15 +150,21 @@ hr {
 }
 
 .nutrition-table {
-  width: 90%;
-  font-family: Outfit;
+  width: 500px;
+  font-family: Outfit, sans-serif;
   color: #302d2c;
-  margin-bottom: 10px;
 }
 
 .nutrition-table td {
   padding-top: 15px;
-  padding-left: 50px;
+  padding-bottom: 15px;
+  padding-left: 70px;
+  padding-right: 30px;
+  /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.nutrition-table tr:last-child td {
+  border-bottom: none;
 }
 
 .nutrition-value {
@@ -166,10 +172,7 @@ hr {
   font-weight: 700;
 }
 
-.attribution { 
-  font-size: 11px; 
-  text-align: center;
-}
+
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
