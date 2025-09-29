@@ -148,15 +148,41 @@ hr {
   color: #302d2c;
 }
 
-.table-of-content {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 15px;
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Outfit;
   color: #302d2c;
 }
 
+.nutrition-table td {
+  padding-top: 15px;
+  padding-left: 50px;
+  /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.nutrition-value {
+  color: #854632;
+  font-weight: 700;
+}
+
+/* .nutrition-table { */
+  /* width: 300px;   choose any size */
+  /* margin: 0 auto; center it */
+/* } */
+
+.nutrition-table tr {
+  position: relative;
+}
+
+.nutrition-table tr:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50px;              /* same as your padding-left */
+  width: 80%;              /* line length */
+  border-bottom: 1px solid #e0e0e0;
+}
 
 .attribution { 
   font-size: 11px; 
