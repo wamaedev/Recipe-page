@@ -9,20 +9,154 @@ body {
 }
 
 .recipe-page {
-  width: 700px;
-  height: 1200px;
+  width: 750px;
+  height: 1560px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 70px;
+  border-radius: 20px;
+}
 
+.image-container {
+  display: flex;
+  margin-bottom: 5px;
 }
 
 .header-image {
-  width: 400px;
-  /* height: 300px;
-  object-fit: cover; */
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  align-items: center;
+  border-radius: 10px;
 }
+
+.recipe-heading {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: Young Serif;
+  font-weight: 400;
+}
+
+.intro-paragraph {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: Outfit;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.preparation-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #fff5fa;
+}
+
+.preparation-header {
+  color: #7b284f;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Outfit;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  /* padding-right: ; */
+}
+
+.preparation-list {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Outfit;
+  color: #302d2c;
+}
+
+.ingredients-header {
+  color: #854632;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  font-family: Young Serif;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.ingredients {
+  padding-bottom: 15px;
+  padding-left: 80px;
+  font-family: Outfit;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #302d2c;
+}
+
+hr {
+  width: 90%;
+  margin: auto;
+  border: px solid #5f574e;
+}
+
+.instructions-header {
+  color: #854632;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  font-family: Young Serif;
+  font-weight: 400;
+  font-size: 27px;
+}
+
+.instructions {
+  padding-bottom: 15px;
+  padding-left: 60px;
+  font-family: Outfit;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #302d2c;
+}
+
+.nutrition-header {
+  color: #854632;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  font-family: Young Serif;
+  font-weight: 400;
+  font-size: 27px;  
+}
+
+.nutrition-paragraph {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: Outfit;
+  font-weight: 400;
+  color: #302d2c;
+}
+
+.table-of-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 15px;
+  color: #302d2c;
+}
+
 
 .attribution { 
   font-size: 11px; 
